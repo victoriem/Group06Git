@@ -11,7 +11,7 @@ public class ConfigurationReader {
 
     static {
         try {
-            FileInputStream file = new FileInputStream("configuration.properties");
+            FileInputStream file = new FileInputStream("Configuration.properties");
             properties.load(file);
         } catch (IOException e) {
             System.out.println("File not found in configuraionReader class");
